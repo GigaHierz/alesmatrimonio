@@ -1,0 +1,180 @@
+header {
+   min-height: 10em;
+   position:absolute;
+   top:20%;
+   left:50%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 3em;
+}
+
+video {
+   margin: 2em;
+}
+.container {
+   display: flex;
+   flex-flow: row wrap;
+
+}
+
+#slides {
+   position: relative;
+   height: 300px;
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+}
+
+.slide {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   z-index: 1;
+
+   -webkit-transition: opacity 1s;
+   -moz-transition: opacity 1s;
+   -o-transition: opacity 1s;
+   transition: opacity 1s;
+}
+
+.slide>img{
+   max-height: 20em;
+   margin-left: 2em;
+}
+
+.showing {
+   opacity: 1;
+   z-index: 2;
+}
+
+.babies {
+   min-height: 25em;
+   min-width: 100%;
+}
+
+
+.a{
+   background-image: url(./assets/svg/19TEAv7V01.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   transform: rotate(10deg);
+}
+
+.b {
+   background-image: url(./assets/svg/3qwxAi0o01.svg);
+   background-repeat: no-repeat;
+   background-position: 85% 15%;;
+}
+.c {
+   background-image: url(./assets/svg/AIccJIoG01.svg);
+   background-repeat: no-repeat;
+   background-position: 70% 30%;;
+   transform: rotate(300deg);
+}
+.d {
+   background-image: url(./assets/svg/eg7JRfnN01.svg);
+   background-repeat: no-repeat;
+   background-position: 10% 90%;;
+   transform: rotate(-50deg);
+}
+.d1 {
+   margin-left: 15em;
+   transform: rotate(21deg);
+}
+.e {
+   background-image: url(./assets/svg/ezCdFYYd01.svg);
+   background-repeat: no-repeat;
+   background-position: right 65% bottom 45%;
+}
+.f {
+   background-image: url(./assets/svg/FKIYyVeh01.svg);
+   background-repeat: no-repeat;
+   background-position: right 35% bottom 45%;
+   transform: rotate(15deg);
+}
+.g {
+   background-image: url(./assets/svg/h1F0f7rh01.svg);
+   background-repeat: no-repeat;
+   background-position: 5% bottom 45%;
+}
+.h {
+   background-image: url(./assets/svg/hAGG57oN01.svg);
+   background-repeat: no-repeat;
+   background-position: right 75% bottom 45%;
+   transform: rotate(270deg);
+}
+.i {
+   background-image: url(./assets/svg/iojuYCsx01.svg);
+   background-repeat: no-repeat;
+   background-position: right 35% bottom 45%;
+   transform: rotate(150deg);
+}
+.j {
+   background-image: url(./assets/svg/juzgVon801.svg);
+   background-repeat: no-repeat;
+   background-position: 85% bottom 15%;
+   transform: rotate(290deg);
+}
+.k {
+   background-image: url(./assets/svg/kcjbTI5S01.svg);
+   background-repeat: no-repeat;
+   background-position: 25% 75%;
+}
+.l {
+   background-image: url(./assets/svg/kGZ6jIMQ01.svg);
+   background-repeat: no-repeat;
+   background-position: 80% bottom 95%;
+   transform: rotate(150deg);
+}
+.m {
+   background-image: url(./assets/svg/19TEAv7V01.svg);
+   background-repeat: no-repeat;
+   background-position: 15% 85%;
+   transform: rotate(15deg);
+}
+.n {
+   background-image: url(./assets/svg/n4anDKAi01.svg);
+   background-repeat: no-repeat;
+   background-position: left 35% bottom 45%;
+}
+.o {
+   background-image: url(./assets/svg/hCujF86o01.svg);
+   background-repeat: no-repeat;
+   background-position: right 35% top 45%;
+   transform: rotate(250deg);
+}
+.p {
+   background-image: url(./assets/svg/Nfe8Bzuu01.svg);
+   background-repeat: no-repeat;
+   background-position: left 15% top 85%;
+}
+.q {
+   background-image: url(./assets/svg/OuntWxPE01.svg);
+   background-repeat: no-repeat;
+   background-position: right 25% bottom 45%;
+   transform: rotate(10deg);
+}
+.r {
+   background-image: url(./assets/svg/F7t1EIAd01.svg);
+   background-repeat: no-repeat;
+   background-position: left 25% bottom 85%;
+   transform: rotate(50deg);
+}
+.s {
+   background-image: url(./assets/svg/Rv0RWJBq01.svg);
+   background-repeat: no-repeat;
+   background-position: right 35% top 45%;
+   transform: rotate(100deg);
+}
+.t {
+   margin-top: 5em;
+   background-image: url(./assets/svg/pQoJ5qhZ01.svg);
+   background-repeat: no-repeat;
+   background-position: right 5% bottom 95%;
+}
+.u {
+   background-repeat: no-repeat;
+   background-position: right 45% bottom 45%;
+}

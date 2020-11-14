@@ -12,6 +12,9 @@ body {
    }
  }
 
+ul {
+   list-style: none;
+}
 
 header {
    min-height: 10em;
@@ -36,6 +39,9 @@ video {
 
 }
 
+#wedding2,
+#weeding,
+#greece,
 #slides {
    position: relative;
    height: 300px;
@@ -105,6 +111,10 @@ video {
    margin-left: 15em;
    transform: rotate(21deg);
 }
+.p1 {
+   margin-left: 15em;
+   transform: rotate(21deg);
+}
 .e {
    background-image: url(./assets/svg/ezCdFYYd01.svg);
    background-repeat: no-repeat;
@@ -137,7 +147,7 @@ video {
    background-image: url(./assets/svg/juzgVon801.svg);
    background-repeat: no-repeat;
    background-position: 85% bottom 15%;
-   transform: rotate(290deg);
+   transform: rotate(10deg);
 }
 .k {
    background-image: url(./assets/svg/kcjbTI5S01.svg);
@@ -166,6 +176,10 @@ video {
    background-repeat: no-repeat;
    background-position: right 35% top 45%;
    transform: rotate(250deg);
+}
+.o1 {
+   background-repeat: no-repeat;
+   background-position: right 45% bottom 45%;
 }
 .p {
    background-image: url(./assets/svg/Nfe8Bzuu01.svg);
@@ -204,5 +218,9 @@ video {
 .aleyro {
    padding-left: 40em;
     padding-top: 5em;
-    max-width: 18em;
+    max-width: 20em;
+}
+
+.paula {
+   max-height: 30em;
 }

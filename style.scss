@@ -5,6 +5,14 @@ body {
    max-width: 1024px;
 }
 
+@media (max-width: 576px) { 
+   body {
+      max-width: 576px;
+
+   }
+ }
+
+
 header {
    min-height: 10em;
    position:absolute;
@@ -191,4 +199,10 @@ video {
 .u {
    background-repeat: no-repeat;
    background-position: right 45% bottom 45%;
+}
+
+.aleyro {
+   padding-left: 40em;
+    padding-top: 5em;
+    max-width: 18em;
 }
